@@ -39,5 +39,12 @@
 - *angular uses the ngModel directive to achive two way binding*
 - * for using ngModel dirctive  we need to import 'FormsModule' in our component which is in FORMS package.*
 
+- > **@input Decorator** - *it is used for getting data from parent component to child component*
+- *for that firstly we need to create a message inside the parent component after that we need to import inside the parent class after that we need to docoraete using @input() in this input we need to create a child message for getting data from parent component after that we need to bind this child message into the child component selector by using property binding.*
 
+- > **@output decorator** - *it is used for getting data from child component to parent component while event occurs we can make use of event emmiter inside this component*
 
+- *in output decorator we need to create a variable inside the child comonent for getting this child message inside the parent component we need do we need to import output and event emmiter inside the child component . after importing we need to decorate using @output() for that decorator we need to create a variable like "propertyName=new EventEmiter()" after that we need to create a function inside the child component and we need to bind this data into the child class selector which is in main template.*
+
+- > **@veiwChild Decorator** - *it is used for getting data from child component to parent component by importing all the child component into the parent component  and we need to impoet veiwChild inside the parent class .*
+- *firstly we need to create a variable inside the child class after that we need to get that child message inside the parent component by importing veiwChild inside the parent component.
