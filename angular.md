@@ -31,9 +31,26 @@
 - *we can also set the properties such as class,href,text content etc*  
 - *we can also set it for the custom components or directives*
 
+* > **atribute binding** - *attribute binding is used to bind data from component to html attributes*
+- *syntax "[attributename]='proppertyName'".*
+- *for that property we need to assign the value inside the component.*
+
+* > **class binding** - *class binding is used to bind data from component to the html class property*
+- *mostly we can use this class binding for web desgining*
+- *syntax:"[class]='propertyName'"*
+
+* > **style binding** - *style binding is used to bind data from component to html style property*
+- *by using this style property we can desgin our web applicatin inside the html elements*
+- *syntax:"[style.color]='propertyName'"
+
+
 * > **event binding ()** - *event binding allows to bind events such as click,ketstock,hover touch etc to a method in a component*
 - *it is a one way binding from veiw to logic*
 - *it helps to track the user events in the veiw and responce it in view and by clicking submit or somthing we can save the data in the backend server.*
+
+* > **template variable** - *template variable helps us to use data from one part of template to another part of template*
+- *by using template variable to perform tasks such as response to user input*
+-  *syntax: #variableName--> to define variabkes in the input fields*
 
 * > **two-way data binding[()]** - *two way data binding is nothing but the combination of property binding and event binding to create two way binding*
 - *angular uses the ngModel directive to achive two way binding*
